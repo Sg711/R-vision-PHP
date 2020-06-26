@@ -10,7 +10,10 @@ Exercice : Créer une fonction censor() qui prend 1 argument de type "string" et
 // Fonction à créer ici
 //-------------------------------------------------------------------------
 
-
+function censor(string $sentence){
+    $word= ['idiot', 'gros débile', 'stupide'];
+    return str_replace($word, '****', $sentence);
+}
 
 
 
