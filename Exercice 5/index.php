@@ -11,7 +11,13 @@ Exercice : Créer une fonction biggestOf() qui prend 2 arguments de type "int". 
 //-------------------------------------------------------------------------
 
 
-
+function biggestOf(int $number, int $secondNumber){
+    if($number > $secondNumber){
+        return $number;
+    } else {
+        return $secondNumber;
+    }
+}
 
 
 //-------------------------------------------------------------------------
